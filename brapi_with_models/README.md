@@ -62,21 +62,21 @@ In default config, the running containers will be:
     
       * The default keycloak username is *admin* and the password is *admin*.
 
-  ![Keycloak example](images/auth1.png)
-  ![Keycloak example](images/auth2.png)
+  ![Keycloak example](../images/auth1.png)
+  ![Keycloak example](../images/auth2.png)
 
 * SPA: 
     * http://localhost:8080
 
       * The default zendro username is *zendro-admin* and the password is *admin*.
 
-  ![spa example](images/spa1.png)
-  ![spa example](images/auth2.png)
+  ![spa example](../images/spa1.png)
+  ![spa example](../images/spa2.png)
 
 * GraphQL API: 
     * http://localhost:3000/graphql
 
-  ![api example](images/graphql.png)
+  ![api example](../images/graphql.png)
 
 
 ### Configuration (optional)
