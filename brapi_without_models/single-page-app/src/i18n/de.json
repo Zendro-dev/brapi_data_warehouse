@@ -1,0 +1,161 @@
+{
+  "associations": {
+    "assoc-select": "{{ modelName }} Assoziaton auswählen",
+    "click-to-associate": "Zum assoziieren klicken",
+    "click-to-disassociate": "Zum disassoziieren klicken",
+    "filter-associated": "Assoziiert",
+    "filter-no-filter": "Keine Filter",
+    "filter-not-associated": "Nicht Assoziiert",
+    "filter-select": "{{ assocName }} Filter auswählen",
+    "filter-to-add": "Für Assoziation markiert",
+    "filter-to-remove": "Für Disassoziation markiert",
+    "mark-to-associate": "Markiert für Assoziation, zum zurücksetzen klicken",
+    "mark-to-disassociate": "Markiert für Disassoziation, zum zurücksetzen klicken",
+    "save": "{{ assocName }} Daten speichern",
+    "new-associated-record": "Neuen {{ modelName }} erstellen und assoziieren"
+  },
+  "dialogs": {
+    "cancel-text": "Nein",
+    "delete-confirm": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",
+    "delete-info": "Element mit Id {{ recordId }} in Model {{ modelName }}",
+    "leave-confirm": "Trotzdem verlassen?",
+    "modified-info": "Einige Felder wurden modifiziert",
+    "ok-text": "Ja",
+    "reload-confirm": "Trotzdem aktualisieren?",
+    "submit-empty-confirm": "Trotzdem fortfahren?",
+    "submit-empty-info": "Einige Felder sind leer. {{ idMsg }}",
+    "validation-info": "Bitte beseitigen sie die Client-side Validierungs Fehler",
+    "validation-title": "Validierungs Fehler"
+  },
+  "errors": {
+    "csv-import": "Beim Versuch die Datei zu importieren ist ein Fehler aufgetreten. Bitte kontaktieren sie ihren Administrator.",
+    "server-error": "Fehler {{ status }} in Anfrage zum Server"
+  },
+  "home": {
+    "documentation-info": "Detaillierte Informationen über Zendro funktionen und API.",
+    "documentation": "Dokumentation",
+    "github-info": "Hilf mit via pull request, issues und Feedback.",
+    "general-title": "Dies ist ein Klon von <1>Cassavabase</1> mit Multi-Omics-Daten der Pflanze Maniok unter Verwendung der neuesten BrApi (V2.1) Datenmodelle.",
+    "general-info": "Dieses Data Warehouse wurde unter Verwendung von <1>Zendro</1> (<2>Github</2>) erstellt. Hier demonstrieren wir, wie Zendro verwendet werden kann, um schnell ein vollständig BrApi-konformes Data Warehouse mit Multi-Omics-Daten einzurichten. <br /><br />",
+    "general-login": "Melden Sie sich an und probieren Sie es aus. Beachten Sie, dass Sie nur Lesezugriff haben, obwohl dieses auf Zendro basierende BrApi Data Warehouse umfassende Schreibfunktionen bietet. Bitte haben Sie Verständnis dafür, dass wir, da dies eine öffentliche Website ist, der allgemeinen Öffentlichkeit nur Lesezugriff gewähren können. Verwenden Sie den Benutzer <strong>brapi-reader</strong> und das Passwort <strong>reader</strong> im untenstehenden Login.",
+    "getting-started": "Alle multi-Omics-Daten von Cassava sind in <1>BrApi-Datenmodellen</1> gespeichert. Finde jedes Modell im Menü auf der linken Seite. <br/><br/>Die GUI ist weitgehend intuitiv und selbsterklärend. Wir haben jedoch zur Bequemlichkeit eine kurze Gebrauchsanweisung hier: <2>Wie man die grafische Benutzeroberfläche von Zendro verwendet</2>",
+    "starting-point": "Ein guter Ausgangspunkt zur Erkundung der Cassava-Daten ist die Untersuchung der folgenden Modelle:",
+    "l1": "Liste der Modelle, die an der Wurzel der Cassava-Daten stehen",
+    "l2": "z. B. study",
+    "l3": "Du kannst verwandte, detailliertere Modelle wie Beobachtungsdaten erkunden, indem du den Beziehungslinks folgst",
+    "plots": "Wissenschaftliche Diagramme einiger Messungen finden Sie <1>hier</1>.",
+    "models": "Bitte beachten Sie, dass die aus Cassavabase importierten Daten nur die folgenden Modelle abdecken:",
+    "allmodels": "Es sind jedoch alle BrApi-Modelle enthalten, um zu demonstrieren, wie Zendro verwendet werden kann, um schnell ein gebrauchsfertiges, BrApi-kompatibles, auf GraphQL basierendes Data Warehouse mit einer grafischen Benutzeroberfläche einzurichten.",
+    "ref": "Referenzen",
+    "graphql":"Um das GraphQL-Server-Backend zu erkunden, verwenden Sie den folgenden Link: <1>BrAPI graphql</1><br/><br/>Hier finden Sie ein umfassendes Handbuch zur Zendro GraphQL API: <3>Einführung in GraphQL und Abfragen der API</3> und für Entwickler hier: <2>Zendro Graphql für Entwickler</2><br/><br/>Allgemeine Informationen zu GraphQL finden Sie hier: <4>GraphQL-Dokumentation</4>",
+    "example": "Zum Beispiel, um den Ernteindex, den Keimungsindex, die Pflanzenhöhen oder die Wurzelfäule-Indizes aus einem Maniok-Versuch von 1979 zu untersuchen, folgen Sie diesen Modellbeziehungen:",
+    "goto": "Oder Sie können direkt zum Modell Observation gehen"
+
+  },
+  "info": {
+    "not-implemented": "Nicht implementiert"
+  },
+  "login-dialog": {
+    "title": "Login Formular",
+    "content": "Um sich auf der Website anzumelden, geben Sie bitte ihre E-Mail-Adresse und Passwort ein.",
+    "login-expired": "Anmenldung abgelaufen",
+    "login-failed": "Anmeldung fehlgeschlagen",
+    "login-successful": "Anmeldung erfolgreich"
+  },
+  "login-form": {
+    "cancel": "Abbrechen",
+    "hide-password": "Passwort verstecken",
+    "login": "Einloggen",
+    "password": "Passwort",
+    "show-password": "Passwort anzeigen"
+  },
+  "model-table": {
+    "add": "{{ modelName }} hinzufügen",
+    "caption": "Tabelle für {{ modelName }}",
+    "delete": "{{ recordId }} löschen",
+    "download-data": "{{ modelName }} Daten als csv herunterladen",
+    "download-template": "{{ modelName }} csv template herunterladen",
+    "edit": "{{ recordId }} bearbeiten",
+    "header-actions": "Operationen",
+    "header-id-tooltip": "Eindeutige Id",
+    "import": "{{ modelName }} Daten aus csv importieren",
+    "no-data": "Keine Daten verfügbar",
+    "pagination-count": "Anzahl",
+    "pagination-first": "Erste Seite",
+    "pagination-last": "Letzte Seite",
+    "pagination-next": "Nächste Seite",
+    "pagination-previous": "Vorige Seite",
+    "pagination-rows": "Reihen",
+    "reload": "Aktualisiere {{ modelName }} Daten",
+    "search-clear": "Suche löschen",
+    "search-label": "Suche {{ modelName }}",
+    "search-label-default": "Suche eingeben",
+    "search-tooltip": "Suche",
+    "view": "{{ recordId }} anzeigen"
+  },
+  "models-layout": {
+    "admin": "Admin",
+    "details": "Details",
+    "edit": "Bearbeiten",
+    "home": "Home",
+    "models": "Modelle",
+    "new": "Neu"
+  },
+  "record-fields": {
+    "array-add": "Element hinzufügen",
+    "array-delete": "Element löschen",
+    "array-unset": "Element zurücksetzen",
+    "primary-key": "{{ name }} ist der primary key",
+    "read-only": "Dieses Feld kann nicht modifiziert werden",
+    "unset": "Wert zurücksetzen"
+  },
+  "record-form": {
+    "action-delete": "Eintrag löschen",
+    "action-exit": "{{ modelName }} Tabelle anzeigen",
+    "action-read": "Details anzeigen",
+    "action-reload": "Daten aktualisieren",
+    "action-submit": "Änderungen speichern",
+    "action-update": "Eintrag bearbeiten",
+    "completed": "Abgeschlossen",
+    "create": "Anlegen",
+    "read": "Lesen",
+    "read-only": "Das Formular ist schreibgeschützt",
+    "tab-associations": "Assoziationen",
+    "tab-attributes": "Attribute",
+    "update": "Aktualisieren",
+    "change-password": "Passwort ändern",
+    "new-password": "Neues Passwort",
+    "cancel-password": "Abbrechen",
+    "confirm-password": "Bestätigen"
+  },
+  "restricted": {
+    "not-logged-header": "Sie sind nicht eingeloggt",
+    "not-logged-info": "Es scheint sie versuchen eine geschützte Seite zu erreichen und sind nicht eingeloggt. Nutzten sie den Login in der oberen rechten Ecke um ihre Nutzerdaten und Berechtigungen zu verifizieren.",
+    "not-allowed-header": "Zugriff zu dieser Seite ist gepserrt",
+    "not-allowed-info": "Es scheint Sie haben nicht ausreichend Zugriffsrechte für die angefragte Seite. Falls Sie glauben dies ist ein Fehler, wenden Sie sich bitte an ihren Administrator.",
+    "token-exp-header": "Ihre Sitzung ist abgelaufen",
+    "token-exp-info": "Die aktuelle Sitzung ist abgelaufen. Revalidieren Sie ihre Sitzung mittels Login in der oberen rechten Ecke. Um die aktuelle Sitzung zu beenden schließen sie das Fenster."
+  },
+  "success": {
+    "assoc-update": "Assoziation erfolgreich aktualisiert",
+    "csv-import": "Die Daten wurden versendet. Ein Statusreport des Importiervorgangs wird an ihre Email versandt.",
+    "new-associated-record": "Tabelle wurde aktualisiert, um neuen {{ modelName }} in der ersten Zeile zu zeigen (Tabelle wurde enstprechend geladen)."
+  },
+  "toolbar": {
+    "change-language": "Sprache ändern",
+    "login": "Einloggen",
+    "logout": "Abmelden",
+    "models": "Daten erkunden"
+  },
+  "warnings": {
+    "already-associated": "Das aktuelle zu editierende Element ist bereits assoziiert zu {{ modelName }} ({{ recordId }}). {{ recordId }} wird automatisch disassoziiert."
+  },
+  "plots": {
+    "header": "Hier finden Sie interaktive Beispiele wissenschaftlicher Diagramme, die die Fähigkeit des BrAPI-Zendro-Datenlagers zur Visualisierung ausgewählter wissenschaftlicher Daten demonstrieren.",
+    "body": "Die hier gezeigten wissenschaftlichen Beobachtungsdaten gehören zur Studie <1>CIAT_1979</1>.",
+    "figure1": "Abbildung 1: Streudiagramm, das die Beziehung zwischen Frischwurzertrag und Pflanzhöhe in der Studie CIAT_1979 zeigt. Bewegen Sie die Maus über die Datenpunkte, um genaue Werte zu erhalten.",
+    "figure2": "Abbildung 2: Boxplot, der die Verteilung der Ernteindizes in verschiedenen Studien (MY197902, MY197903, MY197904 und MY197905) der Studie CIAT_1979 zeigt. Bewegen Sie die Maus über die Datenpunkte, um genaue Werte zu erhalten.",
+    "figure3": "Abbildung 3: Regenwolken-Diagramm, das die Verteilung der Ernteindizes in verschiedenen Studien (MY197902, MY197903, MY197904 und MY197905) der Studie CIAT_1979 (siehe Abbildung 2) zeigt. Bewegen Sie die Maus über die Datenpunkte, um genaue Werte zu erhalten.",
+    "fig": "Abbildung"
+  }
+}

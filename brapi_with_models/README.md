@@ -27,6 +27,7 @@ Execute this commands to set up BrAPI-Zendro:
 ```
 $ git clone https://github.com/Zendro-dev/brapi_data_warehouse.git
 $ cd brapi_data_warehouse
+$ cd brapi_with_models
 ```
 
 ### Start up
